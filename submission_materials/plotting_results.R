@@ -15,7 +15,7 @@ library(ggplot2)
 # write.csv(cascade_model_BSCM_pilot, file = "cascade_model_BSCM_pilot_5_social_influence.csv")
 # 
 # # loading model and adding opinion proportion to the model
-cascade_model_BSCM_pilot <- data.frame(read.csv('~/Desktop/phd_update_december/paper_projects/information_cascade_paper/modelling/simulation_results/main_run/cascade_model_BSCM_5_asocial_agents.csv'))
+cascade_model_BSCM_pilot <- data.frame(read.csv('/Users/jan-philippfranken/documents/github/information_cascades_jpf_tdp_2020/simulation_results/main_run/cascade_model_BSCM_5_social_agents.csv'))
 cascade_model_BSCM_pilot$Opinion_Prop <- (cascade_model_BSCM_pilot$Opinion_A / (cascade_model_BSCM_pilot$Opinion_A + cascade_model_BSCM_pilot$Opinion_B))
 
 # 
@@ -44,18 +44,18 @@ cascade_model_BSCM_pilot$Opinion_Prop <- (cascade_model_BSCM_pilot$Opinion_A / (
 social1 <- ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_Influence)) +
    stat_summary(fun.y=mean, aes(y = Opinion_Prop), geom="line", size = .8) +
    scale_x_continuous(breaks = round(seq(min(cascade_model_BSCM_pilot$Links) - 0.5, max(cascade_model_BSCM_pilot$Links), by = 5),1)) + #seq(min(model_C2P_full$Links), max(model_C2P_full$Links), by = 2000)
-   scale_y_continuous(breaks = round(seq(0, 100, by = 10),1), limits = c(0, 100)) +
+   scale_y_continuous(breaks = round(seq(0, 1, by = 0.1),1), limits = c(0, 1)) +
    theme_bw() +
    scale_color_manual(values=c("#fc0000", "#006dfc", "#000000"), labels=c('+/- 0.2','+/- 0.1','Neutral')) +
-   geom_vline(xintercept = .5, size = .5, colour = "black", linetype = "dashed") +
-   geom_hline(yintercept = .5, size = .5, colour = "black", linetype = "dashed") +
+   geom_vline(xintercept = 0, size = .5, colour = "black", linetype = "dashed") +
+   geom_hline(yintercept = 0, size = .5, colour = "black", linetype = "dashed") +
    labs(x='Interconnectivity (%)', y='Global Proportion of Opinions', linetype='Expertise') +
    theme(text = element_text(size = 14),
          panel.grid = element_blank(),
          axis.title.y = element_text(hjust = 0.5, vjust = 1),
          legend.position = 'right') +
    facet_grid(. ~ P_Prop)
-social3 <- social3 + labs(title = "", x="", y="")
+social2 <- social2 + labs(title = "", x="", y="")
 social1 <- social1 + labs(title = "", x="", y="")
 # 
 ## peak rates of spread
@@ -76,14 +76,14 @@ social1 <- social1 + labs(title = "", x="", y="")
 # 
 ## Degree of Clustering
 # need to change the name for the other data set to social 4
-social2 <- ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_Influence)) +
+social3 <- ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_Influence)) +
    stat_summary(fun.y=mean, aes(y = Prcnt_Same_Clust), geom="line", size = .8) +
    scale_x_continuous(breaks = round(seq(min(cascade_model_BSCM_pilot$Links) - 0.5, max(cascade_model_BSCM_pilot$Links), by = 5),1)) + #seq(min(model_C2P_full$Links), max(model_C2P_full$Links), by = 2000)
    scale_y_continuous(breaks = round(seq(0, 100, by = 10),1), limits = c(0,100)) +
    theme_bw() +
    scale_color_manual(values=c("#000000")) +
-   geom_vline(xintercept = .5, size = .5, colour = "black", linetype = "dashed") +
-   geom_hline(yintercept = .5, size = .5, colour = "black", linetype = "dashed") +
+   geom_vline(xintercept = .0, size = .5, colour = "black", linetype = "dashed") +
+   geom_hline(yintercept = .0, size = .5, colour = "black", linetype = "dashed") +
   labs(x='Interconnectivity (%)', y='Clustering (% Like-minded Neighbors)', linetype='Expertise') +
    theme(text = element_text(size = 14),
          #legend.title = element_blank(),
@@ -92,7 +92,7 @@ social2 <- ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_In
          legend.position = 'right') +
    facet_grid(. ~ P_Prop)
 social4 <- social4 + labs(title = "", x="", y="")
-social2 <- social2 + labs(title = "", x="", y="")
+social3 <- social3 + labs(title = "", x="", y="")
 
 
 library(rlang)
@@ -103,14 +103,13 @@ social2
 social3
 social4
 # then create figure combining single plots 
-fullFigure <- ggarrange(social1,social3,social2,social4, rremove("x.text"), 
-                        labels = c("A","B","C","D"),
+fullFigure <- ggarrange(social1, social2, social3, social4, 
+                        labels = c("a)", "b)", "c)","d)"),
                         ncol = 2, nrow = 2)
 
 fullFigure
 annotate_figure(fullFigure,
                 bottom = text_grob("Interconnectivity (%)", color = "black",
                                    hjust = 0.5, x = 0.5, size = 16))
-                #,
-                #left = text_grob("Clustering (% of like-minded neighbors)", color = "black", rot = 90, size = 16))
+                ,#olor = "black", rot = 90, size = 16))
 
