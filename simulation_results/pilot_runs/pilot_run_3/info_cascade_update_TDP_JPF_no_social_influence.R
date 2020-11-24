@@ -18,7 +18,7 @@ library(ggplot2)
 #######################################################
 
 nl.path <- "C:/Users/Toby/Dropbox/R/Network ABMs/Cascades Modelling (Full Paper)/app" # The R file and workspace should be set to the same folder as your netlogo model
-model.path <- "C:/Users/Toby/Dropbox/R/Network ABMs/Cascades Modelling (Full Paper)/info_cascade_update_TDP_JPF_11_10.nlogo"
+model.path <- "C:/Users/Toby/Dropbox/R/Network ABMs/Cascades Modelling (Full Paper)/info_cascade_update_TDP_JPF_22_10.nlogo"
 
 # Startup:
 nl.jarname <- "netlogo-6.0.4.jar" # this file needs to be in the app folder, which in turn should be in the working directory folder
@@ -38,8 +38,8 @@ sim1 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 1", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 1.00", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.00", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -61,8 +61,8 @@ sim2 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set no-social-influence FALSE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 1", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 1.00", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.10", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -84,8 +84,8 @@ sim3 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 1", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 1.00", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.20", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -107,8 +107,8 @@ sim4 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.1", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.50", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.00", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLCommand("setup")
@@ -131,8 +131,8 @@ sim5<- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.1", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.50", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.10", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -154,8 +154,8 @@ sim6 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.1", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.50", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.20", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -177,8 +177,8 @@ sim7 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.5", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.10", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.00", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -200,8 +200,8 @@ sim8 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.5", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.10", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.10", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -223,8 +223,8 @@ sim9 <- function(pval) {
   retsim <- 0
   rettick <- 0
   for(x in MSimList){
-    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.5", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.5", "set p-E-mean 0.5", "set p-E-sd 0.25", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.25", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
-              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 2", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
+    NLCommand("set no-social-influence TRUE", "set n_agents 1000", "set max_links ",(pval), "set p-h-given-c 0.0", "set prop-likelihood 0.10", "set prior-variance TRUE", "set prior-mean 0.5", "set prior-sd 0.2", "set p-E-mean 0.5", "set p-E-sd 0.2", "set min_E 0.0", "set max_E 1.0", "set p-T-mean 0.5", "set p-T-sd 0.2", "set min_T 0.0", "set max_T 1.0", "set con-in-prior FALSE", "set con-threshold 0.0", "set p-con-sd 0.0",
+              "set beta_T 0", "set alpha_E 0", "set evidence 0", "set alpha_T 0", "set beta_E 0", "set change_shape? FALSE", "set scale-free FALSE", "set learning-through-RL FALSE", "set learning-through-Bayes TRUE", "set ground-truth-impact? FALSE", "set ground-truth 0.0", "set n_init_believers 1", "set neut-event-YN TRUE", "set prox-YN TRUE", "set nb-prop-YN TRUE", "set con-in-learning FALSE",
               "set quadratic-con-prior? FALSE", "set min_con 0.02", "set max_con 1.00", "set alpha_con 2.58", "set beta_con 1.50", "set expertise_influence 0.20", "set sc-bel-prop 0.0", "set p-con-mean 0.0", "set modulate-weight-by-mean FALSE", "set learning_rate 0.0")
     NLCommand("setup")
     NLDoCommandWhile("match-counter <= 1", "go");
@@ -407,11 +407,11 @@ ppb_9_3 <- rbind(ppb_9_2_a,ppb_9_2_b,ppb_9_2_c)
 
 # Version for 0 Prior variance run
 cascade_model_BSCM_pilot <- rbind(ppb_1_3, ppb_2_3, ppb_3_3, ppb_4_3, ppb_5_3, ppb_6_3, ppb_7_3, ppb_8_3, ppb_9_3)
-write.csv(cascade_model_BSCM_pilot, file = "cascade_model_BSCM_pilot_no_SI.csv")
+write.csv(cascade_model_BSCM_pilot, file = "cascade_model_BSCM_pilot_4_no_social_influence.csv")
 # 
 # # loading model and adding opinion proportion to the model
-cascade_model_BSCM_pilot <- data.frame(read.csv('cascade_model_BSCM_pilot_SI.csv'))
-cascade_model_BSCM_pilot$Opinion_Prop <- (cascade_model_BSCM_pilot$Opinion_A / (cascade_model_BSCM_pilot$Opinion_A + cascade_model_BSCM_pilot$Opinion_B))
+# cascade_model_BSCM_pilot <- data.frame(read.csv('~/cascade_model_BSCM_pilot.csv'))
+# cascade_model_BSCM_pilot$Opinion_Prop <- (cascade_model_BSCM_pilot$Opinion_A / (cascade_model_BSCM_pilot$Opinion_A + cascade_model_BSCM_pilot$Opinion_B))
 # 
 # # Version for .1 Prior variance run
 # #model_C2Pvar.1_full <- rbind(ppb_1_3, ppb_2_3, ppb_3_3, ppb_4_3, ppb_5_3, ppb_6_3, ppb_7_3, ppb_8_3, ppb_9_3)
@@ -433,20 +433,21 @@ cascade_model_BSCM_pilot$Opinion_Prop <- (cascade_model_BSCM_pilot$Opinion_A / (
 # ## Graphing Model 1 ##
 # ######################
 # 
-## proportion of believers figures
-ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_Influence)) +
-   stat_summary(fun.y=mean, aes(y = Opinion_Prop), geom="line", size = .8) +
-   scale_x_continuous(breaks = round(seq(min(cascade_model_BSCM_pilot$Links) - 0.5, max(cascade_model_BSCM_pilot$Links), by = 5),1)) + #seq(min(model_C2P_full$Links), max(model_C2P_full$Links), by = 2000)
-   scale_y_continuous(breaks = round(seq(0, 1, by = .1),1), limits = c(0, 1)) +
-   theme_bw() +
-   scale_color_manual(values=c("#fc0000", "#006dfc", "#000000"), labels=c('+/- 0.2','+/- 0.1','Neutral')) +
-   geom_vline(xintercept = .5, size = .5, colour = "black", linetype = "dashed") +
-   geom_hline(yintercept = .5, size = .5, colour = "black", linetype = "dashed") +#   labs(x='Interconnectivity (%)', y='Global Proportion of Opinions', linetype='Opinion Strength') +
-   theme(text = element_text(size = 14),
-        panel.grid = element_blank(),
-         axis.title.y = element_text(hjust = 0.5, vjust = 1),
-         legend.position = 'right') +
-   facet_grid(. ~ P_Prop)
+# ## proportion of believers figures
+# ggplot(Cascade_model_Update1ConVar_full, aes(x = Links, linetype=P_H_Given_C)) +
+#   stat_summary(fun.y=mean, aes(y = Opinion_Prop), geom="line", size = .8) +
+#   scale_x_continuous(breaks = round(seq(min(Cascade_model_Update1ConVar_full$Links) - 0.5, max(Cascade_model_Update1ConVar_full$Links), by = 5),1)) + #seq(min(model_C2P_full$Links), max(model_C2P_full$Links), by = 2000)
+#   scale_y_continuous(breaks = round(seq(0, 1, by = .1),1), limits = c(0, 1)) +
+#   theme_bw() +
+#   #scale_color_manual(values=c("#fc0000", "#006dfc", "#000000"), labels=c('+/- 0.2','+/- 0.1','Neutral')) +
+#   #geom_vline(xintercept = .5, size = .5, colour = "black", linetype = "dashed") +
+#   #geom_hline(yintercept = .5, size = .5, colour = "black", linetype = "dashed") +
+#   labs(x='Interconnectivity (%)', y='Global Proportion of Opinions', linetype='Opinion Strength') +
+#   theme(text = element_text(size = 14),
+#         panel.grid = element_blank(),
+#         axis.title.y = element_text(hjust = 0.5, vjust = 1),
+#         legend.position = 'right') +
+#   facet_grid(. ~ P_Prop)
 # 
 # 
 # ## peak rates of spread
@@ -466,21 +467,21 @@ ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_Influence)) +
 # 
 # 
 # ## Degree of Clustering
-ggplot(cascade_model_BSCM_pilot, aes(x = Links, linetype=Expertise_Influence)) +
-  stat_summary(fun.y=mean, aes(y = Prcnt_Same_Clust), geom="line", size = .8) +
-  scale_x_continuous(breaks = round(seq(min(cascade_model_BSCM_pilot$Links) - 0.5, max(cascade_model_BSCM_pilot$Links), by = 5),1)) + #seq(min(model_C2P_full$Links), max(model_C2P_full$Links), by = 2000)
-  scale_y_continuous(breaks = round(seq(0, 100, by = 10),1), limits = c(0,100)) +
-     theme_bw() +
-  scale_color_manual(values=c("#000000")) +
-  geom_vline(xintercept = .5, size = .5, colour = "black", linetype = "dashed") +
-   geom_hline(yintercept = .5, size = .5, colour = "black", linetype = "dashed") +
-   labs(x='Interconnectivity (%)', y='Clustering (% Like-minded Neighbors)') +
-   theme(text = element_text(size = 20),
-         #legend.title = element_blank(),
-         panel.grid = element_blank(),
-         axis.title.y = element_text(hjust = 0.5, vjust = 1),
-         legend.position = 'right') +
-   facet_grid(. ~ P_Prop)
+# ggplot(Cascade_model_Update1ConVar_full, aes(x = Links, linetype=P_H_Given_C)) +
+#   stat_summary(fun.y=mean, aes(y = Prcnt_Same_Clust), geom="line", size = .8) +
+#   scale_x_continuous(breaks = round(seq(min(Cascade_model_Update1ConVar_full$Links) - 0.5, max(Cascade_model_Update1ConVar_full$Links), by = 5),1)) + #seq(min(model_C2P_full$Links), max(model_C2P_full$Links), by = 2000)
+#   scale_y_continuous(breaks = round(seq(0, 100, by = 10),1), limits = c(0,100)) +
+#   theme_bw() +
+#   scale_color_manual(values=c("#000000")) +
+#   #geom_vline(xintercept = .5, size = .5, colour = "black", linetype = "dashed") +
+#   #geom_hline(yintercept = .5, size = .5, colour = "black", linetype = "dashed") +
+#   labs(x='Interconnectivity (%)', y='Clustering (% Like-minded Neighbors)', linetype='Opinion Strength') +
+#   theme(text = element_text(size = 20),
+#         #legend.title = element_blank(),
+#         panel.grid = element_blank(),
+#         axis.title.y = element_text(hjust = 0.5, vjust = 1),
+#         legend.position = 'right') +
+#   facet_grid(. ~ P_Prop)
 
 
 

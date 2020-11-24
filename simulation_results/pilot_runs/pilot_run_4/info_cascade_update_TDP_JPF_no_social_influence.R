@@ -30,7 +30,7 @@ NLQuit()
 
 # Simulation functions
 sim1 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -49,11 +49,11 @@ sim1 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim2 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -72,11 +72,11 @@ sim2 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim3 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -95,11 +95,11 @@ sim3 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim4 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -119,11 +119,11 @@ sim4 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim5<- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -142,11 +142,11 @@ sim5<- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim6 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -165,11 +165,11 @@ sim6 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim7 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -188,11 +188,11 @@ sim7 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim8 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -211,11 +211,11 @@ sim8 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 sim9 <- function(pval) {
-  MSimList <- seq(1, 10, 1) # number of simulations
+  MSimList <- seq(1, 50, 1) # number of simulations
   retb <- 0 # Initialisations of recording variables
   retnb <- 0
   retut <- 0
@@ -234,7 +234,7 @@ sim9 <- function(pval) {
     retpeakprate <- retpeakprate + NLReport("peak-spread")
     retsim <- retsim + NLReport("cl-prop-same")
     rettick <- rettick + NLReport("ticks")}
-  retlist <- c((retb/10),(retnb/10),(retut/10),(retpeakprate/10),(retsim/10),(rettick/10)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
+  retlist <- c((retb/50),(retnb/50),(retut/50),(retpeakprate/50),(retsim/50),(rettick/50)) # recorded variables then need to be stored as means in this instance, so need to divide by the number of simulations (and also do this other ways)
   return(retlist)}
 
 # Worth including maximum propogation rate in the above simulation as a stored varaible (see BelNet2 graphical interface for equation)
@@ -407,7 +407,7 @@ ppb_9_3 <- rbind(ppb_9_2_a,ppb_9_2_b,ppb_9_2_c)
 
 # Version for 0 Prior variance run
 cascade_model_BSCM_pilot <- rbind(ppb_1_3, ppb_2_3, ppb_3_3, ppb_4_3, ppb_5_3, ppb_6_3, ppb_7_3, ppb_8_3, ppb_9_3)
-write.csv(cascade_model_BSCM_pilot, file = "cascade_model_BSCM_pilot_4_no_social_influence.csv")
+write.csv(cascade_model_BSCM_pilot, file = "cascade_model_BSCM_pilot_5_no_social_influence.csv")
 # 
 # # loading model and adding opinion proportion to the model
 # cascade_model_BSCM_pilot <- data.frame(read.csv('~/cascade_model_BSCM_pilot.csv'))

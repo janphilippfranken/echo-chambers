@@ -1,0 +1,2416 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.22)  6 JUL 2020 14:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**diff.tex
+(./diff.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./wlscirep.cls
+Document Class: wlscirep 27/02/2017, v1.3
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count80
+\U@D=\dimen102
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count81
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count82
+\calc@Bcount=\count83
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count84
+\calc@Cskip=\skip43
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
+\mathindent=\dimen105
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\c@figure=\count91
+\c@table=\count92
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen106
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks17
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen118
+\lightrulewidth=\dimen119
+\cmidrulewidth=\dimen120
+\belowrulesep=\dimen121
+\belowbottomsep=\dimen122
+\aboverulesep=\dimen123
+\abovetopsep=\dimen124
+\cmidrulesep=\dimen125
+\cmidrulekern=\dimen126
+\defaultaddspace=\dimen127
+\@cmidla=\count105
+\@cmidlb=\count106
+\@aboverulesep=\dimen128
+\@belowrulesep=\dimen129
+\@thisruleclass=\count107
+\@lastruleclass=\count108
+\@thisrulewidth=\dimen130
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip49
+\@affilsep=\skip50
+\c@Maxaffil=\count109
+\c@authors=\count110
+\c@affil=\count111
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen131
+\Gm@wd@mp=\dimen132
+\Gm@odd@mp=\dimen133
+\Gm@even@mp=\dimen134
+\Gm@layoutwidth=\dimen135
+\Gm@layoutheight=\dimen136
+\Gm@layouthoffset=\dimen137
+\Gm@layoutvoffset=\dimen138
+\Gm@dimlist=\toks22
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+)
+\c@ContinuedFloat=\count115
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen146
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count118
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count119
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen147
+\Fld@menulength=\count120
+\Field@Width=\dimen148
+\Fld@charsize=\dimen149
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+LaTeX Info: Redefining \cite on input line 441.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks23
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/ttlkeys.def
+File: ttlkeys.def 2016/03/15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen155
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip63
+\enit@outerparindent=\dimen156
+\enit@toks=\toks24
+\enit@inbox=\box29
+\enitdp@description=\count126
+)
+\tocsep=\skip64
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count127
+)) (./jabbrv.sty
+Package: jabbrv 2010/08/18 v0.2 Automatic Journal Title Abbreviation Package
+\temp@journal@text=\toks25
+\temp@journal@text@=\toks26
+\c@jabbrv@strlen@count=\count128
+\c@jabbrv@gobble@temp=\count129
+\c@jabbrv@loop@i=\count130
+\c@jabbrv@loop@max=\count131
+\c@jabbrv@word@count=\count132
+(./jabbrv-ltwa-all.ldf) (./jabbrv-ltwa-en.ldf))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks27
+\MT@count=\count133
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen157
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count134
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip65
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count135
+\float@exts=\toks28
+\float@box=\box30
+\@float@everytoks=\toks29
+\@floatcapt=\box31
+)
+\@float@every@algorithm=\toks30
+\c@algorithm=\count136
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count137
+\c@ALG@rem=\count138
+\c@ALG@nested=\count139
+\ALG@tlm=\skip66
+\ALG@thistlm=\skip67
+\c@ALG@Lnr=\count140
+\c@ALG@blocknr=\count141
+\c@ALG@storecount=\count142
+\c@ALG@tmpcounter=\count143
+\ALG@tmplength=\skip68
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box32
+\UL@hyphenbox=\box33
+\UL@skip=\skip69
+\UL@hook=\toks31
+\UL@height=\dimen158
+\UL@pe=\count144
+\UL@pixel=\dimen159
+\ULC@box=\box34
+Package: ulem 2012/05/18
+\ULdepth=\dimen160
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count145
+\lst@gtempboxa=\box35
+\lst@token=\toks32
+\lst@length=\count146
+\lst@currlwidth=\dimen161
+\lst@column=\count147
+\lst@pos=\count148
+\lst@lostspace=\dimen162
+\lst@width=\dimen163
+\lst@newlines=\count149
+\lst@lineno=\count150
+\lst@maxwidth=\dimen164
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count151
+\lst@skipnumbers=\count152
+\lst@framebox=\box36
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+No file diff.aux.
+\openout1 = `diff.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 74.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count153
+\scratchdimen=\dimen165
+\scratchbox=\box37
+\nofMPsegments=\count154
+\nofMParguments=\count155
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen166
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
+\everyMPtoPDFconversion=\toks34
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(64.01869pt, 666.9326pt, 64.01869pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=666.9326pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.2513pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=15.6491pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 74.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count159
+)
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
+\@outlinefile=\write3
+\openout3 = `diff.out'.
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 74.
+LaTeX Info: Redefining \microtypecontext on input line 74.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+\c@lstlisting=\count160
+LaTeX Font Info:    Try loading font information for T1+phv on input line 82.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 82.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 82
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 82
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 82
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 82
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 82.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
+
+
+LaTeX Warning: Citation `del2016spreading' on page 1 undefined on input line 85
+.
+
+
+LaTeX Warning: Citation `vosoughi2018spread' on page 1 undefined on input line 
+85.
+
+
+LaTeX Warning: Citation `vosoughi2018spread' on page 1 undefined on input line 
+89.
+
+
+LaTeX Warning: Citation `dizikes2018study' on page 1 undefined on input line 89
+.
+
+
+LaTeX Warning: Citation `starbird2014rumors' on page 1 undefined on input line 
+93.
+
+
+LaTeX Warning: Citation `bessi2015science' on page 1 undefined on input line 93
+.
+
+
+LaTeX Warning: Citation `bakshy2015exposure' on page 1 undefined on input line 
+93.
+
+
+LaTeX Warning: Citation `del2016spreading' on page 1 undefined on input line 93
+.
+
+
+LaTeX Warning: Citation `bessi2016users' on page 1 undefined on input line 93.
+
+
+LaTeX Warning: Citation `sikder2020minimalistic' on page 1 undefined on input l
+ine 93.
+
+
+LaTeX Warning: Citation `lazer2018science' on page 1 undefined on input line 95
+.
+
+
+LaTeX Warning: Citation `lazer2018science' on page 1 undefined on input line 99
+.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 1 undefined on input line 104
+.
+
+
+LaTeX Warning: Citation `takikawa2017political' on page 1 undefined on input li
+ne 104.
+
+
+LaTeX Warning: Citation `jasny2015empirical' on page 1 undefined on input line 
+106.
+
+
+LaTeX Warning: Citation `jasny2019echo' on page 1 undefined on input line 106.
+
+
+LaTeX Warning: Citation `tornberg2018echo' on page 1 undefined on input line 10
+6.
+
+
+LaTeX Warning: Citation `del2016spreading' on page 1 undefined on input line 10
+6.
+
+
+LaTeX Warning: Citation `jasny2015empirical' on page 1 undefined on input line 
+109.
+
+
+LaTeX Warning: Citation `jasny2019echo' on page 1 undefined on input line 109.
+
+
+LaTeX Warning: Citation `newman2017reuters' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Citation `haw2020drives' on page 1 undefined on input line 114.
+
+
+LaTeX Warning: Citation `jann2018echo' on page 1 undefined on input line 114.
+
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `nickerson1998confirmation' on page 2 undefined on inpu
+t line 124.
+
+
+LaTeX Warning: Citation `kelman1958compliance' on page 2 undefined on input lin
+e 124.
+
+
+LaTeX Warning: Citation `del2016spreading' on page 2 undefined on input line 12
+5.
+
+
+LaTeX Warning: Citation `starnini2016emergence' on page 2 undefined on input li
+ne 125.
+
+
+LaTeX Warning: Citation `sikder2020minimalistic' on page 2 undefined on input l
+ine 125.
+
+
+LaTeX Warning: Citation `sasahara2019inevitability' on page 2 undefined on inpu
+t line 127.
+
+
+LaTeX Warning: Citation `ngampruetikorn2016bias' on page 2 undefined on input l
+ine 127.
+
+
+LaTeX Warning: Citation `bakshy2015exposure' on page 2 undefined on input line 
+131.
+
+
+LaTeX Warning: Citation `ngampruetikorn2016bias' on page 2 undefined on input l
+ine 131.
+
+
+LaTeX Warning: Citation `henry2011emergence' on page 2 undefined on input line 
+133.
+
+
+LaTeX Warning: Citation `bakshy2015exposure' on page 2 undefined on input line 
+133.
+
+
+LaTeX Warning: Citation `ngampruetikorn2016bias' on page 2 undefined on input l
+ine 133.
+
+
+LaTeX Warning: Citation `barkun2013culture' on page 2 undefined on input line 1
+33.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 2 undefined on input line 135
+.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 2 undefined on input line 1
+35.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 2 undefined on input line 137
+.
+
+
+LaTeX Warning: Citation `henry2011emergence' on page 2 undefined on input line 
+140.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 2 undefined on input line 142
+.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 2 undefined on input line 1
+42.
+
+
+LaTeX Warning: Citation `lorenz2007continuous' on page 2 undefined on input lin
+e 142.
+
+
+LaTeX Warning: Citation `bikhchandani1992theory' on page 2 undefined on input l
+ine 142.
+
+
+LaTeX Warning: Citation `pilditch2017opinion' on page 2 undefined on input line
+ 142.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 2 undefined on input line 1
+44.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 2 undefined on input line 144
+.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 149.
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 149.
+
+[2]
+
+LaTeX Warning: Citation `cuddy2011dynamics' on page 3 undefined on input line 1
+51.
+
+
+LaTeX Warning: Citation `fiske2007universal' on page 3 undefined on input line 
+151.
+
+
+LaTeX Warning: Citation `housholder2014facebook' on page 3 undefined on input l
+ine 151.
+
+
+LaTeX Warning: Citation `robinson1999measures' on page 3 undefined on input lin
+e 151.
+
+
+LaTeX Warning: Citation `cialdini1993influence' on page 3 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `bail2016combining' on page 3 undefined on input line 1
+51.
+
+
+LaTeX Warning: Citation `chaiken1999heuristic' on page 3 undefined on input lin
+e 151.
+
+
+LaTeX Warning: Citation `petty1986elaboration' on page 3 undefined on input lin
+e 151.
+
+
+LaTeX Warning: Citation `chaiken1994heuristic' on page 3 undefined on input lin
+e 155.
+
+
+LaTeX Warning: Citation `jones2003effects' on page 3 undefined on input line 15
+5.
+
+
+LaTeX Warning: Citation `chaiken1994heuristic' on page 3 undefined on input lin
+e 158.
+
+
+LaTeX Warning: Citation `bovens2003bayesian' on page 3 undefined on input line 
+160.
+
+
+LaTeX Warning: Citation `hahn2009argument' on page 3 undefined on input line 16
+0.
+
+
+LaTeX Warning: Citation `harris2009bayesian' on page 3 undefined on input line 
+160.
+
+
+LaTeX Warning: Citation `oaksford2007bayesian' on page 3 undefined on input lin
+e 160.
+
+
+LaTeX Warning: Citation `harris2016appeal' on page 3 undefined on input line 16
+0.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 3 undefined on input line 1
+62.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 3 undefined on input line 162
+.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 3 undefined on input line 1
+64.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 3 undefined on input line 164
+.
+
+
+LaTeX Warning: Citation `wilensky2015introduction' on page 3 undefined on input
+ line 172.
+
+
+LaTeX Warning: Citation `madsen2019analytic' on page 3 undefined on input line 
+172.
+
+
+LaTeX Warning: Citation `lewandowsky2019influence' on page 3 undefined on input
+ line 172.
+
+
+LaTeX Warning: Citation `madsen2018method' on page 3 undefined on input line 17
+2.
+
+
+LaTeX Warning: Citation `macal2005tutorial' on page 3 undefined on input line 1
+75.
+
+
+LaTeX Warning: Citation `madsen2019analytic' on page 3 undefined on input line 
+175.
+
+
+LaTeX Warning: Citation `macal2005tutorial' on page 3 undefined on input line 1
+78.
+
+
+LaTeX Warning: Citation `madsen2019analytic' on page 3 undefined on input line 
+178.
+
+
+LaTeX Warning: Citation `bailey2018computational' on page 3 undefined on input 
+line 184.
+
+
+LaTeX Warning: Citation `pilditch2017opinion' on page 3 undefined on input line
+ 187.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 3 undefined on input line 187
+.
+
+
+LaTeX Warning: Citation `wilensky2015introduction' on page 3 undefined on input
+ line 190.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 193.
+
+[3]
+<figure1.pdf, id=25, 419.5675pt x 443.6575pt>
+File: figure1.pdf Graphic file (type pdf)
+<use figure1.pdf>
+Package pdftex.def Info: figure1.pdf  used on input line 196.
+(pdftex.def)             Requested size: 175.17244pt x 185.23141pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 197.
+
+
+LaTeX Warning: Citation `hahn2007rationality' on page 4 undefined on input line
+ 202.
+
+
+LaTeX Warning: Citation `oaksford2007bayesian' on page 4 undefined on input lin
+e 202.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 4 undefined on input line 2
+08.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 4 undefined on input line 208
+.
+
+
+LaTeX Warning: Citation `bovens2003bayesian' on page 4 undefined on input line 
+208.
+
+
+LaTeX Warning: Citation `hahn2009argument' on page 4 undefined on input line 20
+8.
+
+
+LaTeX Warning: Citation `harris2009bayesian' on page 4 undefined on input line 
+208.
+
+
+LaTeX Warning: Citation `harris2016appeal' on page 4 undefined on input line 20
+8.
+
+
+LaTeX Warning: Reference `fig:bscm' on page 4 undefined on input line 208.
+
+
+LaTeX Warning: Citation `hahn2009argument' on page 4 undefined on input line 23
+7.
+
+
+LaTeX Warning: Citation `harris2016appeal' on page 4 undefined on input line 23
+7.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 239.
+
+[4 <./figure1.pdf>]
+
+LaTeX Warning: Citation `bovens2003bayesian' on page 5 undefined on input line 
+239.
+
+
+LaTeX Warning: Citation `harris2016appeal' on page 5 undefined on input line 23
+9.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 239.
+
+LaTeX Warning: Citation `walton2010appeal' on page 5 undefined on input line 23
+9.
+
+
+LaTeX Warning: Reference `tab:t1' on page 5 undefined on input line 239.
+
+
+LaTeX Warning: Citation `wilensky2015introduction' on page 5 undefined on input
+ line 243.
+
+
+LaTeX Warning: Citation `duggins2017' on page 5 undefined on input line 243.
+
+
+LaTeX Warning: Reference `tab:t1' on page 5 undefined on input line 252.
+
+
+LaTeX Warning: Citation `newman2019reuters' on page 5 undefined on input line 2
+52.
+
+
+LaTeX Warning: Citation `pilditch2017opinion' on page 5 undefined on input line
+ 273.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 5 undefined on input line 276
+.
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 277.
+
+[5]
+
+LaTeX Warning: Citation `pilditch2017opinion' on page 6 undefined on input line
+ 282.
+
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 288.
+
+<figure2.pdf, id=57, 1445.4pt x 939.51pt>
+File: figure2.pdf Graphic file (type pdf)
+<use figure2.pdf>
+Package pdftex.def Info: figure2.pdf  used on input line 292.
+(pdftex.def)             Requested size: 500.484pt x 325.30682pt.
+
+LaTeX Warning: Reference `fig:results' on page 6 undefined on input line 298.
+
+
+LaTeX Warning: Citation `pilditch2017opinion' on page 6 undefined on input line
+ 298.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 299.
+
+[6 <./figure2.pdf>]
+
+LaTeX Warning: Reference `fig:results' on page 7 undefined on input line 316.
+
+
+LaTeX Warning: Reference `fig:results' on page 7 undefined on input line 320.
+
+
+LaTeX Warning: Reference `fig:example_nets' on page 7 undefined on input line 3
+23.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 323.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 324.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 324.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 324.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 324.
+
+<figure3.pdf, id=69, 505.89pt x 498.86375pt>
+File: figure3.pdf Graphic file (type pdf)
+<use figure3.pdf>
+Package pdftex.def Info: figure3.pdf  used on input line 331.
+(pdftex.def)             Requested size: 400.38872pt x 394.83641pt.
+
+LaTeX Warning: Citation `henry2011emergence' on page 7 undefined on input line 
+343.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 7 undefined on input line 343
+.
+
+
+LaTeX Warning: Citation `sasahara2019inevitability' on page 7 undefined on inpu
+t line 343.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 7 undefined on input line 3
+45.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 7 undefined on input line 345
+.
+
+
+LaTeX Warning: Citation `madsen2017growing' on page 7 undefined on input line 3
+47.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 7 undefined on input line 347
+.
+
+
+LaTeX Warning: Reference `fig:results' on page 7 undefined on input line 347.
+
+
+LaTeX Warning: Reference `fig:example_nets' on page 7 undefined on input line 3
+47.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 347.
+
+
+LaTeX Warning: Citation `henry2011emergence' on page 7 undefined on input line 
+351.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 7 undefined on input line 351
+.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 353.
+
+[7]
+
+LaTeX Warning: Citation `vosoughi2018spread' on page 8 undefined on input line 
+354.
+
+
+LaTeX Warning: Citation `del2016spreading' on page 8 undefined on input line 35
+4.
+
+
+LaTeX Warning: Citation `bessi2016users' on page 8 undefined on input line 354.
+
+
+
+LaTeX Warning: Citation `del2016echo' on page 8 undefined on input line 354.
+
+
+LaTeX Warning: Citation `del2016spreading' on page 8 undefined on input line 35
+4.
+
+
+LaTeX Warning: Citation `ngampruetikorn2016bias' on page 8 undefined on input l
+ine 354.
+
+
+LaTeX Warning: Citation `starnini2016emergence' on page 8 undefined on input li
+ne 354.
+
+
+LaTeX Warning: Citation `pilditch2017opinion' on page 8 undefined on input line
+ 354.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 356.
+
+[8 <./figure3.pdf>]
+
+LaTeX Warning: Citation `duggins2017' on page 9 undefined on input line 357.
+
+
+LaTeX Warning: Citation `watts2002identity' on page 9 undefined on input line 3
+57.
+
+
+LaTeX Warning: Citation `lewandowsky2019influence' on page 9 undefined on input
+ line 359.
+
+
+LaTeX Warning: Citation `williams2015network' on page 9 undefined on input line
+ 361.
+
+
+LaTeX Warning: Citation `lewandowsky2019influence' on page 9 undefined on input
+ line 361.
+
+
+LaTeX Warning: Citation `madsen2018method' on page 9 undefined on input line 36
+1.
+
+
+LaTeX Warning: Citation `madsen2018large' on page 9 undefined on input line 361
+.
+
+
+LaTeX Warning: Citation `whalen2018sensitivity' on page 9 undefined on input li
+ne 365.
+
+
+LaTeX Warning: Citation `whalen2018sensitivity' on page 9 undefined on input li
+ne 367.
+
+
+LaTeX Warning: Citation `whalen2018sensitivity' on page 9 undefined on input li
+ne 369.
+
+
+LaTeX Warning: Citation `shanks2002re' on page 9 undefined on input line 377.
+
+
+LaTeX Warning: Reference `tab:t2' on page 9 undefined on input line 395.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Improper \spacefactor.
+<argument> ...def \UL@spfactor {\the \spacefactor 
+                                                  }
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Extra }, or forgotten $.
+\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
+                                                  \egroup \unskip \unskip \u...
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\UL@word ...expandafter \UL@end #1\egroup \egroup 
+                                                  \unskip \unskip \unskip \s...
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\spacefactor' in math mode.
+\UL@word ... \unskip \unskip \unskip \spacefactor 
+                                                  \UL@spfactor \let \UL@word...
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Extra }, or forgotten $.
+\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
+                                                  \@empty 
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\DIFdel #1->{\protect \color {red}\sout {#1}}
+                                             
+l.405 & e, t & \DIFdelbeginFL \DIFdelFL{\neg }
+                                              \DIFdelendFL \DIFaddbeginFL \D...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Limit controls must follow a math operator.
+<recently read> \limits 
+                        
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I'm ignoring this misplaced \limits or \nolimits command.
+
+! Extra }, or forgotten $.
+\UL@onmath ...L@leadtype \LA@hskip \p@ plus1fill}}
+                                                  \egroup 
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\UL@onmath ...pe \LA@hskip \p@ plus1fill}}\egroup 
+                                                  
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\DIFadd #1->{\protect \color {blue}\uwave {#1}}
+                                               
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL e, t & e, \DI...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced alignment tab character &.
+l.405 ...FL \DIFaddFL{\(\neg\)}\DIFaddendFL e, t &
+                                                   e, \DIFdelbeginFL \DIFdel...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Limit controls must follow a math operator.
+<recently read> \limits 
+                        
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I'm ignoring this misplaced \limits or \nolimits command.
+
+! Extra }, or forgotten $.
+\UL@onmath ...L@leadtype \LA@hskip \p@ plus1fill}}
+                                                  \egroup 
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\UL@onmath ...pe \LA@hskip \p@ plus1fill}}\egroup 
+                                                  
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\DIFadd #1->{\protect \color {blue}\uwave {#1}}
+                                               
+l.405 ...lendFL \DIFaddbeginFL \DIFaddFL{\(\neg\)}
+                                                  \DIFaddendFL t & \DIFdelbe...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.405 ...ginFL \DIFaddFL{\(\neg\)}\DIFaddendFL t &
+                                                   \DIFdelbeginFL \DIFdelFL{...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 20312 strings out of 492649
+ 379243 string characters out of 6129622
+ 596636 words of memory out of 5000000
+ 23735 multiletter control sequences out of 15000+600000
+ 88852 words of font info for 237 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,14n,45p,1781b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+!  ==> Fatal error occurred, no output PDF file produced!
