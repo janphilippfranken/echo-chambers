@@ -1,4 +1,4 @@
-Data and model for "Cascades across networks are sufficient for the formation of echo chambers: An agent-based model" (Fränken & Pilditch, 2021). 
+Simulation results, NetLogo model, and analysis code for "Cascades across networks are sufficient for the formation of echo chambers: An agent-based model" (Fränken & Pilditch, 2021). 
 
 Correspondence: janphilipp.franken@gmail.com
 
